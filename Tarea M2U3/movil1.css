@@ -1,0 +1,40 @@
+
+body{
+    background-color: tan;
+}	
+
+
+#contenedor {
+	width: 100%;
+	background: yellow;
+}
+#cabecera{
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+#contenido{
+
+	width: 100%;
+}
+nav{
+	background-color: red;
+    font-size: 15px;
+    color: white;
+}
+ul{
+	list-style-type:none;
+	padding: 10px;
+}
+section{
+	background-color: blue;
+    font-size: 15px;
+    color: white;
+	padding: 10px;
+}
+aside{
+	background-color: green;
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}

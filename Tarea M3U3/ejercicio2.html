@@ -1,0 +1,48 @@
+<!-- Crear el código que reciba como parámetro un array de números y devuelva el mayor. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var n1;
+        var n2;
+        var n3;
+        var n4;
+        var n5;
+        n1 = prompt('Ingrese el número 1 de 5:', '');
+        n2 = prompt('Ingrese el número 2 de 5:', '');
+        n3 = prompt('Ingrese el número 3 de 5:', '');
+        n4 = prompt('Ingrese el número 4 de 5:', '');
+        n5 = prompt('Ingrese el número 5 de 5:', '');
+
+        if (n1 > n2 && n1 > n3 && n1 > n4 && n1 > n5) {
+            document.write('el mayor es el ' + n1);
+        } else {
+            if (n2 > n1 && n2 > n3 && n2 > n4 && n2 > n5) {
+                document.write('el mayor es el ' + n2);
+            } else {
+                if (n3 > n1 && n3 > n2 && n3 > n4 && n3 > n5) {
+                    document.write('el mayor es el ' + n3);
+                } else {
+                    if (n4 > n1 && n4 > n2 && n4 > n3 && n4 > n5) {
+                        document.write('el mayor es el ' + n4);
+                    }
+                    else {
+                        if (n5 > n1 && n5 > n2 && n5 > n3 && n5 > n4) {
+                            document.write('el mayor es el ' + n5);
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
